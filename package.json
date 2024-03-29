@@ -1,0 +1,51 @@
+{
+  "name": "magnitempore",
+  "version": "1.0.0",
+  "description": "Alternative to lodash.get that makes it typed and cool as if optional chaining proposal is there",
+  "main": "lib/index.node.js",
+  "module": "lib/index.js",
+  "jsnext:main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JordaneKoelpin/magnitempore.git"
+  },
+  "author": "MyrtieGoodwin",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-syntax-typescript": "^7.3.3",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/runtime": "^7.3.4",
+    "@types/jest": "^24.0.11",
+    "@types/lodash": "^4.14.123",
+    "codecov": "^3.2.0",
+    "jest": "^24.5.0",
+    "lodash": "^4.17.11",
+    "np": "^4.0.2",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
+  },
+  "files": [
+    "lib"
+  ],
+  "babel": {
+    "comments": false,
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "10"
+          }
+        }
+      ],
+      "@babel/preset-typescript"
+    ]
+  },
+  "homepage": "https://github.com/JordaneKoelpin/magnitempore.git"
+}
